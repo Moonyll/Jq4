@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice 4</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <ul>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>...</li>
+    </ul>
+    <button class="button" id="btn">Changer couleur</button>
+    <script>
+        // Création de la fonction
+        $(document).ready(function () {
+            $('#btn').click(function () { $('li').css('color', 'red'); }); // .css pour changer les styles !
+        }
+        );
+    </script>
+</body>
+</html>
